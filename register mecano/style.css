@@ -1,0 +1,102 @@
+.indent-small {
+  margin-left: 5px;
+}
+.form-group.internal {
+  margin-bottom: 0;
+}
+.dialog-panel {
+  margin: 10px;
+}
+.datepicker-dropdown {
+  z-index: 200 !important;
+}
+.panel-body {
+  background: #e5e5e5;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e5e5e5), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #e5e5e5 0%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  font: 600 15px "Open Sans", Arial, sans-serif;
+}
+label.control-label {
+  font-weight: 600;
+  color: #777;
+}
+
+#phone {
+  width: 200px;
+}
+
+#intervention {
+  width: 200px;
+}
+
+.connexion {
+  float:right;
+  color: white;
+}
+
+.back {
+  float:right;
+  color: white;
+}
+
+.logout {
+  float:right;
+  color: white;
+}
+
+.connexion-text {
+  text-align: center;
+}
+
+.connect {
+  padding-left: 0;
+  text-align: center;
+}
+
+.delete {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#btn-connect {
+  width: 150px;
+  height: 45px;
+}
+
+.box {
+  background-color: #34495e;
+  width: 100%;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+
+  padding: 30px;
+  margin: 18px;
+  text-align: center;
+}
+
+.position-box {
+  width: 95%;
+  color: white;
+}
+
+.space {
+  padding: 4px;
+}
+
+#btn-delete {
+  font-size: 15px;
+}

@@ -1,0 +1,59 @@
+/* global body padding */
+body {
+  padding-top:    20px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top:    50px;
+    padding-bottom: 50px;
+  }
+}
+
+
+/* global spacing overrides */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar-fixed-top,
+.navbar-static-top {
+  border-bottom: 0;
+}
+
+.list-group{
+	margin-bottom:.5rem !important
+}
+.list-group .list-group-header{
+	background:rgba(255,255,255,0.1)
+}
+
+.block{
+	background-color: transparent;
+	position: relative;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 14px;
+    border: 1px solid #434857;
+	border-radius: 3px 3px 0 0;
+}
+
+.block h2{font-size:15px;font-weight:bold;margin-bottom:0}
+.block h2.nerd{color:#f1c40f}
+.block h2.fonda{color:#bd1313}
+.block h2.moderateur{color:rgb(245, 0, 248)}
+.block h2.citoyen{color:rgb(31, 139, 76)}
+.block h3.dashhead-subtitle{color:#aaa;}
+.block .avatar{border-radius:50%;width:40px;height:40px;margin-right:10px;margin-bottom:10px;}
+.block .content{background:#4f5566;padding:20px;margin-top:5px;font-size:15px;line-height:18px}
+
+.btn-copy{cursor:pointer;}
+.no-style{background:none;box-shadow:none !important; color:#FFF;border:none;outline:none}
+
+.dashhead-titles{float:none !important}
